@@ -26,8 +26,6 @@ $ docker run --rm --user="$(id -u):$(id -g)" -v $('pwd'):/opt gulpd npm install
 $ docker run --rm --user="$(id -u):$(id -g)" -v $('pwd'):/opt gulpd gulp watch
 ```
 
-By default, if no command is given, it'll automatically run `gulp watch`
-
 Stopping the container will require you to open another terminal window to run the following commands
 ```
 $ docker ps
@@ -35,4 +33,4 @@ $ docker stop <container id>
 ```
 
 ## More Information
-For more information on (Docker Docs)[https://docs.docker.com/]
+For more information on [Docker Docs](https://docs.docker.com/)
